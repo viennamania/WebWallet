@@ -3011,7 +3011,9 @@
 					var pass = $("#open-password").val()
 					var passConfirm = $("#open-password-confirm").val()
 					if (email.match(/[\s\w\d]+@[\s\w\d]+/g)) {
-						if (pass.length>=10){
+
+						if (pass.length>=8){
+
 							if (pass == passConfirm) {
 								var pass = pass
 								var s = email
